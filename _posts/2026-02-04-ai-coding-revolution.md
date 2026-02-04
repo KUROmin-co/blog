@@ -2,7 +2,7 @@
 layout: post
 title: "AI Trends 2026: Why Coding is No Longer About Syntax"
 date: 2026-02-04 14:00:00 +0900
-categories: [AI, Tech Trends]
+categories: [AI, Tech-Trends]
 author: Kuro
 ---
 
