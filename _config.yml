@@ -1,9 +1,24 @@
 title: "Global Tech Trends by Kuro"
 email: contact@kuromin.co
-description: >- # this means to ignore newlines until "baseurl:"
-  Daily curated AI & Tech news, summarized for busy professionals.
-baseurl: "/blog" # the subpath of your site, e.g. /blog
-url: "https://kuromin-co.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+description: >-
+  Daily curated AI & Tech news, summarized for busy professionals. 
+  Focusing on Autonomous Agents, Coding Trends, and the Future of Work.
+baseurl: "/blog"
+url: "https://kuromin-co.github.io"
+twitter_username: kuromin_co
+github_username: KUROmin-co
+
+# Build settings
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
+
+# Minima Skin specifics
+header_pages:
+  - about.md
+  - index.md
+
+# SEO Tag defaults
+author: Kuro
+lang: en
