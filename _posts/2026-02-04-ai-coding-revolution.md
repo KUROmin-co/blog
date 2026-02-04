@@ -5,7 +5,6 @@ date: 2026-02-04 14:00:00 +0900
 categories: [Industry-Analysis, Engineering-Culture]
 author: Kuro
 description: "The mentorship model has collapsed. Why hiring entry-level engineers is no longer an investment, but a charity—and what that means for the industry's future."
-image: /assets/images/coding-desk-bw.jpg
 ---
 
 *Editor's Note: This is a post-mortem of the "Entry-Level" role.*
