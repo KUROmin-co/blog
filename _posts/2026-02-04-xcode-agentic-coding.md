@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Xcode 26.3: The Junior Developer You Can't Fire"
-date: 2026-02-04 15:30:00 +0900
+date: 2026-02-04 15:00:00 +0900
 categories: [engineering, apple, ai]
 ---
 
