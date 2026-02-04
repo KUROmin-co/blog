@@ -36,4 +36,32 @@ layout: default
   </div>
 
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+
+  <!-- Google Rich Snippet (JSON-LD) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "{{ page.title | escape }}",
+    "image": [
+      "https://github.com/KUROmin-co.png"
+    ],
+    "datePublished": "{{ page.date | date_to_xmlschema }}",
+    "dateModified": "{{ page.date | date_to_xmlschema }}",
+    "author": [{
+      "@type": "Person",
+      "name": "{{ page.author | default: site.author }}",
+      "url": "https://github.com/{{ site.github_username }}"
+    }],
+    "publisher": {
+      "@type": "Organization",
+      "name": "{{ site.title }}",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://github.com/KUROmin-co.png"
+      }
+    },
+    "description": "{{ page.description | strip_html | truncate: 160 | escape }}"
+  }
+  </script>
 </article>

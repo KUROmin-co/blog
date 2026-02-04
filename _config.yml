@@ -13,6 +13,7 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-sitemap
 
 # Minima Skin specifics
 header_pages:
@@ -22,3 +23,9 @@ header_pages:
 # SEO Tag defaults
 author: Kuro
 lang: en
+logo: https://github.com/KUROmin-co.png
+social:
+  name: Kuro
+  links:
+    - https://twitter.com/kuromin_co
+    - https://github.com/KUROmin-co
